@@ -32,10 +32,10 @@
 .menu-toggle:focus {
   cursor: pointer;
 }
-.menu-toggle:hover svg,
-.menu-toggle:focus svg {
-  fill: var(--resume-btn-bg);
-}
+// .menu-toggle:hover svg,
+// .menu-toggle:focus svg {
+//   fill: var(--resume-btn-bg);
+// }
 .menu-container {
   position: fixed;
   top: 0;
