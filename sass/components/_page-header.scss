@@ -1,0 +1,22 @@
+.page-header .container {
+  padding: 20px 10px;
+  background-color: var(--white-color);
+}
+.menu-toggle {
+  margin-left: auto;
+}
+.header-nav {
+  margin-left: auto;
+  gap: 33px;
+}
+.header-nav__link {
+  font-weight: 500;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .page-header .container {
+    padding: 27px 60px;
+  }
+}
+
+/*# sourceMappingURL=main.min.css.map */
