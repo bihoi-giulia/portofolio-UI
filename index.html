@@ -34,24 +34,24 @@
           </svg>
         </button>
 
-        <ul class="header-nav hidden-on-mobile">
-          <li class="header-nav__link">
+        <ul class="header hidden-on-mobile">
+          <li class="header__link">
             <a href="./index.html">Home</a>
           </li>
-          <li class="header-nav__link"><a href="./work.html">Works</a></li>
-          <li class="header-nav__link"><a href="./blog.html">Blog</a></li>
-          <li class="header-nav__link"><a href="">Contact</a></li>
+          <li class="header__link"><a href="./work.html">Works</a></li>
+          <li class="header__link"><a href="./blog.html">Blog</a></li>
+          <li class="header__link"><a href="./contact.html">Contact</a></li>
         </ul>
       </div>
     </header>
 
     <main>
-      <!-- presentation section -->
-      <section class="presentation">
+      <!-- description section -->
+      <section class="description">
         <div class="container">
-          <div class="img-container">
+          <div class="description__img-container">
             <img
-              class="my-image"
+              class="description__my-image"
               srcset="
                 ./images/description/description250W.png 250w,
                 ./images/description/description500W.png 500w
@@ -61,12 +61,12 @@
               alt="my image"
             />
           </div>
-          <div class="presentation-text-container">
-            <h1 class="presentation-title">
+          <div class="description__text-container">
+            <h1 class="description__title">
               Hi, I am John,<br />
               Creative Technologist
             </h1>
-            <p class="presentation-text">
+            <p class="description__text">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
@@ -75,7 +75,6 @@
           </div>
         </div>
       </section>
-      <!-- end of presentation section -->
       <!-- recent posts section -->
       <section class="recent-posts">
         <div class="container">
@@ -117,7 +116,6 @@
           </div>
         </div>
       </section>
-      <!-- end of recent posts section -->
       <!-- featured works section -->
       <section class="featured-works">
         <div class="container">
@@ -198,7 +196,6 @@
           </ul>
         </div>
       </section>
-      <!-- end of featured works section -->
     </main>
     <!-- footer -->
     <footer class="page-footer">
@@ -242,8 +239,7 @@
         <p class="footer-text">Copyright &#169;2020 All rights reserved</p>
       </div>
     </footer>
-    <!-- end of footer -->
-    <!-- creating mobile menu -->
+    <!-- mobile menu -->
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
         <svg
@@ -268,22 +264,21 @@
             >
           </li>
           <li class="mobile-nav__links">
-            <a href="./work-page.html" class="mobile-header-nav__links-item"
+            <a href="./work.html" class="mobile-header-nav__links-item"
               >Works</a
             >
           </li>
           <li class="mobile-nav__links">
-            <a href="./blog-page.html" class="mobile-header-nav__links-item"
-              >Blog</a
-            >
+            <a href="./blog.html" class="mobile-header-nav__links-item">Blog</a>
           </li>
           <li class="mobile-nav__links">
-            <a href="" class="mobile-header-nav__links-item">Contact</a>
+            <a href="./contact.html" class="mobile-header-nav__links-item"
+              >Contact</a
+            >
           </li>
         </ul>
       </nav>
     </div>
-    <!-- end mobile menu -->
     <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
