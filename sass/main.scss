@@ -1,9 +1,8 @@
-@import "./components/page-header";
-@import "./components/description";
-@import "./components/recent-posts";
-@import "./components/featured-works.scss";
-@import "./components/footer";
+@import "./components-index/page-header";
+@import "./components-index/description";
+@import "./components-index/recent-posts";
+@import "./components-index/featured-works.scss";
+@import "./components-index/footer";
 @import "./utils/general";
 @import "./utils/vars";
-@import "./components/mobil-menu";
-// @import "./components/work";
+@import "./components-index/mobil-menu";

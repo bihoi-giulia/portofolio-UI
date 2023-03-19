@@ -32,10 +32,10 @@
 .menu-toggle:focus {
   cursor: pointer;
 }
-// .menu-toggle:hover svg,
-// .menu-toggle:focus svg {
-//   fill: var(--resume-btn-bg);
-// }
+.menu-toggle:hover svg,
+.menu-toggle:focus svg {
+  fill: var(--resume-btn-bg);
+}
 .menu-container {
   position: fixed;
   top: 0;
@@ -79,6 +79,9 @@
 .mobile-header-nav__links-item {
   font-weight: 700;
   color: var(--dark-text-color);
+}
+.mobile-header-nav__links-item:hover {
+  color: #ff6464;
 }
 .menu-toggle {
   margin-left: auto;

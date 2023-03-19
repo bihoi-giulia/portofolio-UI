@@ -1,5 +1,5 @@
 .work {
-  background-color: white;
+  background-color: #ffffff;
   &__item {
     margin-bottom: 18px;
     margin-top: 21px;
@@ -11,7 +11,7 @@
     position: absolute;
     width: 100%;
     height: 1px;
-    background-color: var(--work-info-color);
+    background-color: #8695a4;
     bottom: -18px;
     left: 0;
   }
@@ -32,6 +32,13 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
+    font-family: Heebo;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #21243d;
   }
 }
 .work .container {
@@ -44,21 +51,35 @@
   margin-top: 21px;
 }
 
-.work-description {
-  color: var(--work-info-color);
+.work__description {
+  color: #8695a4;
   margin-top: 16px;
   margin-bottom: 25px;
 }
-.work-info__year .work-description__year {
+.work-info__year {
   font-weight: 900;
-  color: var(--white-color);
-  background-color: var(--dark-text-color);
+  color: #ffffff;
+  background-color: #142850;
   border-radius: 16px;
   padding-left: 12px;
   padding-right: 12px;
   margin-right: 22px;
 }
-
+.work-text {
+  color: #21243d;
+}
+.work-subtitle {
+  font-family: Heebo;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #21243d;
+}
+.work-info {
+  color: #8695a4;
+}
 @media screen and (min-width: 768px) {
   .work .container {
     padding: 0 10% 83px 10%;
@@ -84,7 +105,7 @@
       position: absolute;
       width: 100%;
       height: 1px;
-      background-color: var(--work-info-color);
+      background-color: #8695a4;
       bottom: -15px;
       left: 0;
     }

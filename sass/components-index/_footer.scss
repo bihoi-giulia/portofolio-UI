@@ -35,7 +35,7 @@
   margin-top: 24px;
 }
 .work-detail {
-  background-color: var(--presentation-bg);
+  background-color: #e5e5e5;
 }
 .work-detail .container {
   flex-direction: column;
@@ -60,7 +60,7 @@
   height: -moz-fit-content;
   height: fit-content;
   color: var(--white-color);
-  background-color: var(--info-year-bg);
+  background-color: #ff7c7c;
 }
 .title1 {
   font-weight: 500;
@@ -111,12 +111,12 @@
 .blog-post {
   padding: 0;
   background-color: rgba(0, 0, 0, 0);
-  border-bottom: 1px solid var(--view-all-btn);
+  border-bottom: 1px solid #00a8cc;
   padding-bottom: 24px;
   border-radius: 0;
 }
 .blog-post .post__info-subtitle {
-  color: var(--work-info-color);
+  color: #8695a4;
 }
 @media screen and (min-width: 768px) {
   .blog-page .container {

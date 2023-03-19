@@ -1,5 +1,5 @@
 .recent-posts {
-  background-color: var(--post-section-bg);
+  background-color: #edf7fa;
 }
 .recent-posts .container {
   padding: 0 10px 20px 10px;
@@ -15,6 +15,12 @@
 .section-title {
   font-size: 18px;
   color: #21243d;
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 .post {
   padding: 12px 20px 22px 20px;
@@ -22,31 +28,44 @@
   margin-bottom: 17px;
   border-radius: 4px;
   border: rgba(0, 0, 0, 0);
+  &__info {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 21px;
+    color: #21243d;
+  }
+  &__info-date {
+    position: relative;
+    color: #21243d;
+  }
+  &__info-date::after {
+    content: "";
+    height: 100%;
+    width: 1px;
+    background-color: #21243d;
+    position: absolute;
+    right: -24px;
+  }
 }
 .article-post-title {
   font-weight: 700;
   font-size: 22px;
   line-height: 30px;
   margin-bottom: 12px;
+  color: #21243d;
 }
-.post__info {
-  display: flex;
-  gap: 48px;
-  margin-bottom: 21px;
-}
-.post__info-date {
-  position: relative;
-}
-.post__info-date::after {
-  content: "";
-  height: 100%;
-  width: 1px;
-  background-color: var(--dark-text-color);
-  position: absolute;
-  right: -24px;
+
+.post-text {
+  color: #21243d;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 .view-all-btn {
-  color: var(--view-all-btn);
+  color: #00a8cc;
   border: none;
   background-color: rgba(0, 0, 0, 0);
 }
